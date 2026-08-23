@@ -1,0 +1,15 @@
+using UnrealBuildTool;
+using System.Collections.Generic;
+
+public class ModuleAndPluginXTarget : TargetRules
+{
+	public ModuleAndPluginXTarget(TargetInfo Target) : base(Target)
+	{
+		Type = TargetType.Game;
+		DefaultBuildSettings = BuildSettingsVersion.V5;
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
+
+		ExtraModuleNames.Add("ModuleAndPluginX");
+		ExtraModuleNames.Add("Test");
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Temporary Plugin",
+	"Description": "An example of a plugin which declares its own UObject type.  This can be used as a starting point when creating your own plugin.",
+	"Category": "Examples",
+	"CreatedBy": "Kim WonBin",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "Temporary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
