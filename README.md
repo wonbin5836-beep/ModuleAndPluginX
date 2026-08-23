@@ -8,9 +8,9 @@
 ---
 
 ## 폴더 구조
-Source/ModuleAndPluginX      # Primary Game Module (주 로직)
-Source/Test                  # 서브 C++ 모듈 (PreDefault 로딩)
-Plugins/Temporary/           # 콘텐츠 + 로직 결합 독립 플러그인
+- Source/ModuleAndPluginX      # Primary Game Module (주 로직)
+- Source/Test                  # 서브 C++ 모듈 (PreDefault 로딩)
+- Plugins/Temporary/           # 콘텐츠 + 로직 결합 독립 플러그인
 
 ---
 
